@@ -4,8 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        - JEKYLL_VERSION=3.8
     volumes:
       - ./:/srv/jekyll/
     tty: true

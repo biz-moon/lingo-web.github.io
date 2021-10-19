@@ -1,2 +1,2 @@
-FROM jekyll/jekyll
+FROM jekyll/jekyll:3.8.4
 
