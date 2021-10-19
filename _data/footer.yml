@@ -1,9 +1,9 @@
 left_links:
-  - name: Blog
-    link: /blog/
   - name: About
     link: /about/
-  - name: Contact
+  - name: 수업료
+    link: /fee/
+  - name: 수강신청
     link: /contact/
 right_links:
   - name:
