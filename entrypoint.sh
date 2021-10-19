@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /srv/jekyll && jekyll serve
+cd /srv/jekyll && jekyll serve --watch
