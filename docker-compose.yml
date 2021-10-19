@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  lingo_web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - JEKYLL_VERSION=3.8
+    volumes:
+      - ./:/srv/jekyll/
+    tty: true
+    stdin_open: true
+    entrypoint: 
+      - /srv/jekyll/entrypoint.sh
+    ports:
+      - "4000:4000"
